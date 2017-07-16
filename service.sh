@@ -41,11 +41,11 @@ _run_smoke() {
 }
 
 docker_build() {
-  docker build -t goeuro:devtest --build-arg RouteFilePath=$RouteFilePath .
+  docker build -t goeuro:devtest .
 }
 
 docker_run() {
-  docker run --rm -it -p 8088:8088 goeuro:devtest RouteFilePath=$RouteFilePath
+  docker run --rm -it -p 8088:8088 goeuro:devtest
 }
 
 docker_smoke() {
