@@ -41,7 +41,7 @@ _run_smoke() {
 }
 
 docker_build() {
-  docker build -t goeuro:devtest .
+  docker build -t goeuro:devtest RouteFilePath=$RouteFilePath .
 }
 
 docker_run() {
