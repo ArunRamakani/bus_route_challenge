@@ -19,7 +19,7 @@ dev_build() {
 dev_run() {
   # Do what you need to run your app in the foreground
   # e.g. java -jar target/magic.jar $*
-  java -Xmx1024m -DRouteFilePath=$RouteFilePath -jar target/bus-route-challenge-1.0.jar
+  java -DRouteFilePath=$RouteFilePath -jar target/bus-route-challenge-1.0.jar
   sleep 600
 }
 
