@@ -1,0 +1,5 @@
+arun/solve/route/challenge/busroutechallenge/service/DepartureArrivalRouteServiceTest.class
+arun/solve/route/challenge/busroutechallenge/BusRouteChallengeApplicationTests.class
+arun/solve/route/challenge/busroutechallenge/validation/RouteFileValidatorTest.class
+arun/solve/route/challenge/busroutechallenge/controller/DepartureArrivalRouteRestTest.class
+arun/solve/route/challenge/busroutechallenge/dataholder/OrginDestinationRouteDataOptimizerTest.class
