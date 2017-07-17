@@ -1,9 +1,11 @@
 
 # Bus Route Challenge
 
-<h2>Assumptions</h2>
 
-1) Map<Departure, Set<Arrival>> - Data structure used to achive minimum responce time in finding out connected direct stations
+<h2>Assumptions</h2>
+------------------------------------------------------------------------------------------------------------------------
+
+1) Map<Departure, Set\<Arrival\>> - Data structure used to achive minimum responce time in finding out connected direct stations
 
 2) This data structure is applicable only to find the if there is a direct connection exist. any additional requirement need a changes to the data structure
 
@@ -19,6 +21,7 @@
 
 
 <h2>Test Steps</h2>
+-----------------------------------------------------------------------------------------------------------------------
 
 1) git clone https://github.com/ArunRamakani/bus_route_challenge.git
 
@@ -35,7 +38,8 @@
 7) ./service.sh docker_run
 
 
-<h2>Some Test Results </h2>
+<h2>Some Test Results</h2>
+------------------------------------------------------------------------------------------------------------------------
 
 ``` 
 ./service.sh dev_run /Users/hack/Documents/mygithub/javaproblem/bus-route-challenge/src/test/resources/MaxRouteStation
