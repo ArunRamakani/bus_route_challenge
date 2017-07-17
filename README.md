@@ -40,21 +40,16 @@
 ``` 
 ./service.sh dev_run /Users/hack/Documents/mygithub/javaproblem/bus-route-challenge/src/test/resources/MaxRouteStation
 
-http://localhost:8088/api/direct?dep_sid=999&arr_sid=1000
+1) http://localhost:8088/api/direct?dep_sid=999&arr_sid=1000
+   {"dep_sid": 999,"arr_sid": 1000,"direct_bus_route":true}
 
-{"dep_sid": 999,"arr_sid": 1000,"direct_bus_route":true}
+2) http://localhost:8088/api/direct?dep_sid=17&arr_sid=1000
+   {"dep_sid”: 17,"arr_sid": 1000,"direct_bus_route":true}
 
-http://localhost:8088/api/direct?dep_sid=17&arr_sid=1000
-{"dep_sid”: 17,"arr_sid": 1000,"direct_bus_route":true}
+3) http://localhost:8088/api/direct?dep_sid=17&arr_sid=2
+   {"dep_sid”: 17,"arr_sid”: 2,"direct_bus_route": false}
 
-
-
-http://localhost:8088/api/direct?dep_sid=17&arr_sid=2
-
-{"dep_sid”: 17,"arr_sid”: 2,"direct_bus_route": false}
-
-
-
+4) 
 Aruns-MacBook-Pro:bus_route_challenge hack$ ./service.sh dev_smoke<br/>
 Invoking: dev_smoke<br/>
 Running smoke tests on http://localhost:8088...<br/>
