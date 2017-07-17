@@ -46,13 +46,14 @@ public class RouteFileValidator {
 	 **/
 	public static Map<Integer, ArrayList<Integer>> validateFile(final String filePath) throws RouteFileInvalidFormatException {
 
-		BufferedReader bufferedReader = null;
 		Map<Integer, ArrayList<Integer>>  routeMap = null;
 		// Check if we are able to locate, read the file
 		try {
-			bufferedReader = new BufferedReader(new FileReader(filePath));
-			routeMap = validateRouteInformations(validateRouteCount(bufferedReader));
+			BufferedReader bufferedReader = new BufferedReader(new FileReader(filePath));
+			ArrayList<String> stringArray = validateRouteCount(bufferedReader);
 			bufferedReader.close();
+			routeMap = validateRouteInformations(stringArray);
+			
 		} catch (IOException e) {
 			LOGGER.error("Not able to reade the file");
 			e.printStackTrace();
