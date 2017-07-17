@@ -20,9 +20,11 @@
 
 <b>Test Steps</b>
 
-git clone https://github.com/ArunRamakani/bus_route_challenge.git
+1) git clone https://github.com/ArunRamakani/bus_route_challenge.git
 
-cd bus_route_challenge
+2) cd bus_route_challenge
 
-./service.sh dev_run /Users/hack/Documents/mygithub/javaproblem/bus-route-challenge/src/test/resources/MaxRouteStation (./service.sh dev_run <file-name>)
+3) ./service.sh dev_build
+
+4) ./service.sh dev_run /Users/hack/Documents/mygithub/javaproblem/bus-route-challenge/src/test/resources/MaxRouteStation  (./service.sh dev_run <file-name>)
 
