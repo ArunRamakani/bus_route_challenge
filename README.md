@@ -56,9 +56,9 @@ http://localhost:8088/api/direct?dep_sid=17&arr_sid=2
 
 
 
-Aruns-MacBook-Pro:bus_route_challenge hack$ ./service.sh dev_smoke
-Invoking: dev_smoke
-Running smoke tests on http://localhost:8088...
-{"dep_sid":3,"arr_sid":4,"direct_bus_route":true}
-{"dep_sid":0,"arr_sid":1,"direct_bus_route":false}
-Tests Passed
+Aruns-MacBook-Pro:bus_route_challenge hack$ ./service.sh dev_smoke<br/>
+Invoking: dev_smoke<br/>
+Running smoke tests on http://localhost:8088...<br/>
+{"dep_sid":3,"arr_sid":4,"direct_bus_route":true}<br/>
+{"dep_sid":0,"arr_sid":1,"direct_bus_route":false}<br/>
+Tests Passed<br/>
