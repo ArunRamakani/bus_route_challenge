@@ -15,5 +15,14 @@
 
 6) If the data file consist of any non integer content, file is considerd invalid
 
-7) "data/example" is taken as the default data processing file 
+7) "data/example" is taken as the default data processing file, if no file is provided as input.
+
+
+<b>Test Steps</b>
+
+git clone https://github.com/ArunRamakani/bus_route_challenge.git
+
+cd bus_route_challenge
+
+./service.sh dev_run /Users/hack/Documents/mygithub/javaproblem/bus-route-challenge/src/test/resources/MaxRouteStation (./service.sh dev_run <file-name>)
 
