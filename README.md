@@ -1,7 +1,7 @@
 
 # Bus Route Challenge
 
-<h2>Assumptions<h2>
+<h2>Assumptions</h2>
 
 1) Map<Departure, Set<Arrival>> - Data structure used to achive minimum responce time in finding out connected direct stations
 
@@ -18,7 +18,7 @@
 7) "data/example" is taken as the default data processing file, if no file is provided as input.
 
 
-<b1>Test Steps</b1>
+<h2>Test Steps</h2>
 
 1) git clone https://github.com/ArunRamakani/bus_route_challenge.git
 
@@ -35,7 +35,7 @@
 7) ./service.sh docker_run
 
 
-<b1>Some Test result </b1>
+<h2>Some Test result </h2>
 
 ``` 
 ./service.sh dev_run /Users/hack/Documents/mygithub/javaproblem/bus-route-challenge/src/test/resources/MaxRouteStation
