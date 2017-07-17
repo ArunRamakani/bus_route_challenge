@@ -1,7 +1,7 @@
 
 # Bus Route Challenge
 
-<h1>Assumptions</h1>
+<h2>Assumptions<h2>
 
 1) Map<Departure, Set<Arrival>> - Data structure used to achive minimum responce time in finding out connected direct stations
 
