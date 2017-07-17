@@ -37,9 +37,8 @@
 
 <b1>Some Test result </b1>
 
+``` 
 ./service.sh dev_run /Users/hack/Documents/mygithub/javaproblem/bus-route-challenge/src/test/resources/MaxRouteStation
-
-http://localhost:8088/api/direct?dep_sid=999&arr_sid=1000
 
 http://localhost:8088/api/direct?dep_sid=999&arr_sid=1000
 
@@ -62,3 +61,4 @@ Running smoke tests on http://localhost:8088...<br/>
 {"dep_sid":3,"arr_sid":4,"direct_bus_route":true}<br/>
 {"dep_sid":0,"arr_sid":1,"direct_bus_route":false}<br/>
 Tests Passed<br/>
+```
