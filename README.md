@@ -41,26 +41,18 @@
 
 http://localhost:8088/api/direct?dep_sid=999&arr_sid=1000
 
-{  
-   "dep_sid":999,
-   "arr_sid":1000,
-   "direct_bus_route":true
-}
+http://localhost:8088/api/direct?dep_sid=999&arr_sid=1000
+
+{"dep_sid": 999,"arr_sid": 1000,"direct_bus_route":true}
 
 http://localhost:8088/api/direct?dep_sid=17&arr_sid=1000
-{  
-   "dep_sid":17,
-   "arr_sid":1000,
-   "direct_bus_route":true
-}
+{"dep_sid”: 17,"arr_sid": 1000,"direct_bus_route":true}
+
+
 
 http://localhost:8088/api/direct?dep_sid=17&arr_sid=2
 
-{  
-   "dep_sid":17,
-   "arr_sid":2,
-   "direct_bus_route":false
-}
+{"dep_sid”: 17,"arr_sid”: 2,"direct_bus_route": false}
 
 
 
