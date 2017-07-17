@@ -26,7 +26,7 @@
 
 3) ./service.sh dev_build
 
-4) ./service.sh dev_run /Users/hack/Documents/mygithub/javaproblem/bus-route-challenge/src/test/resources/MaxRouteStation  (./service.sh dev_run <file-name>)
+4) ./service.sh dev_run <file-name>
 
 5) ./service.sh dev_smoke
 
