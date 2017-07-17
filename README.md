@@ -26,7 +26,7 @@
 
 3) ./service.sh dev_build
 
-4) ./service.sh dev_run \<file-name\>
+4) ./service.sh dev_run \<file-path\>
 
 5) ./service.sh dev_smoke
 
