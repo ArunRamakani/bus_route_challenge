@@ -3,7 +3,7 @@
 
 
 <h2>Assumptions</h2>
-------------------------------------------------------------------------------------------------------------------------
+
 
 1) Map<Departure, Set\<Arrival\>> - Data structure used to achive minimum responce time in finding out connected direct stations
 
@@ -21,7 +21,7 @@
 
 
 <h2>Test Steps</h2>
------------------------------------------------------------------------------------------------------------------------
+
 
 1) git clone https://github.com/ArunRamakani/bus_route_challenge.git
 
