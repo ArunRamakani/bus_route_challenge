@@ -1,7 +1,7 @@
 
 # Bus Route Challenge
 
-<b>Assumptions</b>
+<b1>Assumptions</b1>
 
 1) Map<Departure, Set<Arrival>> - Data structure used to achive minimum responce time in finding out connected direct stations
 
@@ -18,7 +18,7 @@
 7) "data/example" is taken as the default data processing file, if no file is provided as input.
 
 
-<b>Test Steps</b>
+<b1>Test Steps</b1>
 
 1) git clone https://github.com/ArunRamakani/bus_route_challenge.git
 
@@ -28,3 +28,45 @@
 
 4) ./service.sh dev_run /Users/hack/Documents/mygithub/javaproblem/bus-route-challenge/src/test/resources/MaxRouteStation  (./service.sh dev_run <file-name>)
 
+5) ./service.sh dev_smoke
+
+6) ./service.sh docker_build
+
+7) ./service.sh docker_run
+
+
+<b1>Some Test result </b1>
+
+./service.sh dev_run /Users/hack/Documents/mygithub/javaproblem/bus-route-challenge/src/test/resources/MaxRouteStation
+
+http://localhost:8088/api/direct?dep_sid=999&arr_sid=1000
+
+{  
+   "dep_sid":999,
+   "arr_sid":1000,
+   "direct_bus_route":true
+}
+
+http://localhost:8088/api/direct?dep_sid=17&arr_sid=1000
+{  
+   "dep_sid":17,
+   "arr_sid":1000,
+   "direct_bus_route":true
+}
+
+http://localhost:8088/api/direct?dep_sid=17&arr_sid=2
+
+{  
+   "dep_sid":17,
+   "arr_sid":2,
+   "direct_bus_route":false
+}
+
+
+
+Aruns-MacBook-Pro:bus_route_challenge hack$ ./service.sh dev_smoke
+Invoking: dev_smoke
+Running smoke tests on http://localhost:8088...
+{"dep_sid":3,"arr_sid":4,"direct_bus_route":true}
+{"dep_sid":0,"arr_sid":1,"direct_bus_route":false}
+Tests Passed
